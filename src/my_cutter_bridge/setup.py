@@ -15,11 +15,13 @@ setup(
     zip_safe=True,
     maintainer='golfsko',
     maintainer_email='nyegolfsko@hotmai.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Bridge node to send cutter commands to Arduino',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'bridge = my_cutter_bridge.cutter_bridge:main', 
+            'joy_to_cutter = my_cutter_bridge.joy_to_cutter:main',
         ],
     },
 )
