@@ -1,0 +1,1 @@
+/home/golfsko/dev_ws/build/robotklipper/ament_cmake_environment_hooks/local_setup.zsh

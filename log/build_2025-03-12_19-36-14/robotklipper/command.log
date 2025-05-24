@@ -1,0 +1,4 @@
+Invoking command in '/home/golfsko/dev_ws/build/robotklipper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/golfsko/dev_ws/build/robotklipper -- -j4 -l4
+Invoked command in '/home/golfsko/dev_ws/build/robotklipper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/golfsko/dev_ws/build/robotklipper -- -j4 -l4
+Invoking command in '/home/golfsko/dev_ws/build/robotklipper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/golfsko/dev_ws/build/robotklipper
+Invoked command in '/home/golfsko/dev_ws/build/robotklipper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/golfsko/dev_ws/build/robotklipper

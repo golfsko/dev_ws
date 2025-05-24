@@ -1,0 +1,39 @@
+[0.695s] Invoking command in '/home/golfsko/dev_ws/build/robotklipper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/golfsko/dev_ws/install/joy_tester:/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/golfsko/dev_ws/build/robotklipper -- -j6 -l6
+[0.896s] Invoked command in '/home/golfsko/dev_ws/build/robotklipper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/golfsko/dev_ws/install/joy_tester:/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/golfsko/dev_ws/build/robotklipper -- -j6 -l6
+[0.921s] Invoking command in '/home/golfsko/dev_ws/build/robotklipper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/golfsko/dev_ws/install/joy_tester:/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/golfsko/dev_ws/build/robotklipper
+[0.951s] -- Install configuration: ""
+[0.969s] -- Execute custom install script
+[0.977s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/config/empty.yaml
+[0.977s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/config/gazebo_params.yaml
+[0.978s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/config/joystick.yaml
+[0.978s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/config/my_controllers.yaml
+[0.978s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/camera.xacro
+[1.006s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/gazebo_control.xacro
+[1.007s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/inertial_macros.xacro
+[1.007s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/lidar.xacro
+[1.007s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/robot.urdf.xacro
+[1.007s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/robot_core.xacro
+[1.008s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/ros2_control.xacro
+[1.008s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/joystick.launch.py
+[1.008s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/launch_robot.launch.py
+[1.009s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/launch_sim.launch.py
+[1.009s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/rplidar.launch.py
+[1.009s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/rsp.launch.py
+[1.009s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/worlds/empty.world
+[1.010s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/worlds/obstacles.world
+[1.010s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/ament_index/resource_index/package_run_dependencies/robotklipper
+[1.011s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/ament_index/resource_index/parent_prefix_path/robotklipper
+[1.011s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/ament_prefix_path.sh
+[1.011s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/ament_prefix_path.dsv
+[1.011s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/path.sh
+[1.012s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/path.dsv
+[1.012s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.bash
+[1.012s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.sh
+[1.013s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.zsh
+[1.013s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.dsv
+[1.013s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/package.dsv
+[1.027s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/ament_index/resource_index/packages/robotklipper
+[1.027s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/cmake/robotklipperConfig.cmake
+[1.027s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/cmake/robotklipperConfig-version.cmake
+[1.028s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/package.xml
+[1.031s] Invoked command in '/home/golfsko/dev_ws/build/robotklipper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/golfsko/dev_ws/install/joy_tester:/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/golfsko/dev_ws/build/robotklipper

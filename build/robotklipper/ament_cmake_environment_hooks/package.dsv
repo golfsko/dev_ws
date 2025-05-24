@@ -1,0 +1,4 @@
+source;share/robotklipper/local_setup.bash
+source;share/robotklipper/local_setup.dsv
+source;share/robotklipper/local_setup.sh
+source;share/robotklipper/local_setup.zsh

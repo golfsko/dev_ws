@@ -1,0 +1,32 @@
+[0.049s] Invoking command in '/home/golfsko/dev_ws/build/robotklipper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/golfsko/dev_ws/build/robotklipper -- -j4 -l4
+[0.139s] Invoked command in '/home/golfsko/dev_ws/build/robotklipper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/golfsko/dev_ws/build/robotklipper -- -j4 -l4
+[0.162s] Invoking command in '/home/golfsko/dev_ws/build/robotklipper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/golfsko/dev_ws/build/robotklipper
+[0.173s] -- Install configuration: ""
+[0.175s] -- Execute custom install script
+[0.175s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/config/empty.yaml
+[0.176s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/config/my_controllers.yaml
+[0.178s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/gazebo_control.xacro
+[0.179s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/inertial_macros.xacro
+[0.180s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/robot.urdf.xacro
+[0.181s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/robot_core.xacro
+[0.182s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/ros2_control.xacro
+[0.183s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/launch_sim.launch.py
+[0.183s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/rsp.launch.py
+[0.183s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/worlds/empty.world
+[0.184s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/worlds/obstacles.world
+[0.186s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/ament_index/resource_index/package_run_dependencies/robotklipper
+[0.187s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/ament_index/resource_index/parent_prefix_path/robotklipper
+[0.188s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/ament_prefix_path.sh
+[0.190s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/ament_prefix_path.dsv
+[0.190s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/path.sh
+[0.190s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/path.dsv
+[0.190s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.bash
+[0.191s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.sh
+[0.192s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.zsh
+[0.192s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.dsv
+[0.192s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/package.dsv
+[0.207s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/ament_index/resource_index/packages/robotklipper
+[0.209s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/cmake/robotklipperConfig.cmake
+[0.209s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/cmake/robotklipperConfig-version.cmake
+[0.210s] -- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/package.xml
+[0.213s] Invoked command in '/home/golfsko/dev_ws/build/robotklipper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/golfsko/dev_ws/build/robotklipper

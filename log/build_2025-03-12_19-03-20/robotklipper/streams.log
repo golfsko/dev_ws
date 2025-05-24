@@ -1,0 +1,56 @@
+[0.037s] Invoking command in '/home/golfsko/dev_ws/build/robotklipper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/golfsko/dev_ws/src/robotklipper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/golfsko/dev_ws/install/robotklipper
+[0.800s] -- The C compiler identification is GNU 11.4.0
+[1.303s] -- The CXX compiler identification is GNU 11.4.0
+[1.338s] -- Detecting C compiler ABI info
+[1.504s] -- Detecting C compiler ABI info - done
+[1.513s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.514s] -- Detecting C compile features
+[1.516s] -- Detecting C compile features - done
+[1.529s] -- Detecting CXX compiler ABI info
+[1.693s] -- Detecting CXX compiler ABI info - done
+[1.703s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.703s] -- Detecting CXX compile features
+[1.704s] -- Detecting CXX compile features - done
+[1.750s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.027s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.178s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.272s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.445s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.458s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.460s] -- Added test 'lint_cmake' to check CMake code style
+[2.462s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.469s] -- Added test 'xmllint' to check XML markup files
+[2.474s] -- Configuring done
+[2.482s] -- Generating done
+[2.487s] -- Build files have been written to: /home/golfsko/dev_ws/build/robotklipper
+[2.499s] Invoked command in '/home/golfsko/dev_ws/build/robotklipper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/golfsko/dev_ws/src/robotklipper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/golfsko/dev_ws/install/robotklipper
+[2.500s] Invoking command in '/home/golfsko/dev_ws/build/robotklipper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/golfsko/dev_ws/build/robotklipper -- -j4 -l4
+[2.564s] Invoked command in '/home/golfsko/dev_ws/build/robotklipper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/golfsko/dev_ws/build/robotklipper -- -j4 -l4
+[2.579s] Invoking command in '/home/golfsko/dev_ws/build/robotklipper': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/golfsko/dev_ws/build/robotklipper
+[2.589s] -- Install configuration: ""
+[2.589s] -- Execute custom install script
+[2.590s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/config/empty.yaml
+[2.605s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/gazebo_control.xacro
+[2.618s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/inertial_macros.xacro
+[2.635s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/robot.urdf.xacro
+[2.650s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/robot_core.xacro
+[2.666s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/launch_sim.launch.py
+[2.680s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/rsp.launch.py
+[2.694s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/worlds/empty.world
+[2.709s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/worlds/obstacles.world
+[2.724s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/ament_index/resource_index/package_run_dependencies/robotklipper
+[2.741s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/ament_index/resource_index/parent_prefix_path/robotklipper
+[2.758s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/ament_prefix_path.sh
+[2.773s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/ament_prefix_path.dsv
+[2.787s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/path.sh
+[2.802s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/path.dsv
+[2.816s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.bash
+[2.848s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.sh
+[2.864s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.zsh
+[2.879s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.dsv
+[2.893s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/package.dsv
+[2.906s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/ament_index/resource_index/packages/robotklipper
+[2.920s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/cmake/robotklipperConfig.cmake
+[2.936s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/cmake/robotklipperConfig-version.cmake
+[2.950s] -- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/package.xml
+[2.968s] Invoked command in '/home/golfsko/dev_ws/build/robotklipper' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/golfsko/dev_ws/build/robotklipper

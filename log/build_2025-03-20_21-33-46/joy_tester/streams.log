@@ -1,0 +1,22 @@
+[5.339s] Invoking command in '/home/golfsko/dev_ws/src/joy_tester': PYTHONPATH=/home/golfsko/dev_ws/build/joy_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/golfsko/dev_ws/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/golfsko/dev_ws/build/joy_tester/build install --record /home/golfsko/dev_ws/build/joy_tester/install.log --single-version-externally-managed install_data
+[5.980s] running egg_info
+[5.980s] writing ../../build/joy_tester/joy_tester.egg-info/PKG-INFO
+[5.987s] writing dependency_links to ../../build/joy_tester/joy_tester.egg-info/dependency_links.txt
+[5.995s] writing entry points to ../../build/joy_tester/joy_tester.egg-info/entry_points.txt
+[5.999s] writing requirements to ../../build/joy_tester/joy_tester.egg-info/requires.txt
+[5.999s] writing top-level names to ../../build/joy_tester/joy_tester.egg-info/top_level.txt
+[6.012s] reading manifest file '../../build/joy_tester/joy_tester.egg-info/SOURCES.txt'
+[6.029s] adding license file 'LICENSE'
+[6.029s] writing manifest file '../../build/joy_tester/joy_tester.egg-info/SOURCES.txt'
+[6.032s] running build
+[6.032s] running build_py
+[6.034s] running install
+[6.037s] running install_lib
+[6.044s] running install_data
+[6.044s] running install_egg_info
+[6.044s] removing '/home/golfsko/dev_ws/install/joy_tester/lib/python3.10/site-packages/joy_tester-0.0.2-py3.10.egg-info' (and everything under it)
+[6.046s] Copying ../../build/joy_tester/joy_tester.egg-info to /home/golfsko/dev_ws/install/joy_tester/lib/python3.10/site-packages/joy_tester-0.0.2-py3.10.egg-info
+[6.061s] running install_scripts
+[6.108s] Installing test_joy script to /home/golfsko/dev_ws/install/joy_tester/lib/joy_tester
+[6.116s] writing list of installed files to '/home/golfsko/dev_ws/build/joy_tester/install.log'
+[6.227s] Invoked command in '/home/golfsko/dev_ws/src/joy_tester' returned '0': PYTHONPATH=/home/golfsko/dev_ws/build/joy_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/golfsko/dev_ws/install/joy_tester/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/golfsko/dev_ws/build/joy_tester/build install --record /home/golfsko/dev_ws/build/joy_tester/install.log --single-version-externally-managed install_data

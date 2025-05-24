@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/my_cutter_bridge/my_cutter_bridge.egg-info
+writing ../../build/my_cutter_bridge/my_cutter_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_cutter_bridge/my_cutter_bridge.egg-info/dependency_links.txt
+writing entry points to ../../build/my_cutter_bridge/my_cutter_bridge.egg-info/entry_points.txt
+writing requirements to ../../build/my_cutter_bridge/my_cutter_bridge.egg-info/requires.txt
+writing top-level names to ../../build/my_cutter_bridge/my_cutter_bridge.egg-info/top_level.txt
+writing manifest file '../../build/my_cutter_bridge/my_cutter_bridge.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_cutter_bridge/my_cutter_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_cutter_bridge/my_cutter_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/golfsko/dev_ws/build/my_cutter_bridge/build
+creating /home/golfsko/dev_ws/build/my_cutter_bridge/build/lib
+creating /home/golfsko/dev_ws/build/my_cutter_bridge/build/lib/my_cutter_bridge
+copying my_cutter_bridge/__init__.py -> /home/golfsko/dev_ws/build/my_cutter_bridge/build/lib/my_cutter_bridge
+copying my_cutter_bridge/arduino_cutter_bridge.py -> /home/golfsko/dev_ws/build/my_cutter_bridge/build/lib/my_cutter_bridge
+running install
+running install_lib
+creating /home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages/my_cutter_bridge
+copying /home/golfsko/dev_ws/build/my_cutter_bridge/build/lib/my_cutter_bridge/__init__.py -> /home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages/my_cutter_bridge
+copying /home/golfsko/dev_ws/build/my_cutter_bridge/build/lib/my_cutter_bridge/arduino_cutter_bridge.py -> /home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages/my_cutter_bridge
+byte-compiling /home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages/my_cutter_bridge/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages/my_cutter_bridge/arduino_cutter_bridge.py to arduino_cutter_bridge.cpython-310.pyc
+running install_data
+creating /home/golfsko/dev_ws/install/my_cutter_bridge/share/ament_index
+creating /home/golfsko/dev_ws/install/my_cutter_bridge/share/ament_index/resource_index
+creating /home/golfsko/dev_ws/install/my_cutter_bridge/share/ament_index/resource_index/packages
+copying resource/my_cutter_bridge -> /home/golfsko/dev_ws/install/my_cutter_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/golfsko/dev_ws/install/my_cutter_bridge/share/my_cutter_bridge
+running install_egg_info
+Copying ../../build/my_cutter_bridge/my_cutter_bridge.egg-info to /home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages/my_cutter_bridge-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/golfsko/dev_ws/build/my_cutter_bridge/install.log'

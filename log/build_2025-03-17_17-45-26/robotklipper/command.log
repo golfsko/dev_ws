@@ -1,0 +1,6 @@
+Invoking command in '/home/golfsko/dev_ws/build/robotklipper': CMAKE_PREFIX_PATH=/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/golfsko/dev_ws/src/robotklipper -DCMAKE_INSTALL_PREFIX=/home/golfsko/dev_ws/install/robotklipper
+Invoked command in '/home/golfsko/dev_ws/build/robotklipper' returned '0': CMAKE_PREFIX_PATH=/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/golfsko/dev_ws/src/robotklipper -DCMAKE_INSTALL_PREFIX=/home/golfsko/dev_ws/install/robotklipper
+Invoking command in '/home/golfsko/dev_ws/build/robotklipper': CMAKE_PREFIX_PATH=/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/golfsko/dev_ws/build/robotklipper -- -j6 -l6
+Invoked command in '/home/golfsko/dev_ws/build/robotklipper' returned '0': CMAKE_PREFIX_PATH=/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/golfsko/dev_ws/build/robotklipper -- -j6 -l6
+Invoking command in '/home/golfsko/dev_ws/build/robotklipper': CMAKE_PREFIX_PATH=/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/golfsko/dev_ws/build/robotklipper
+Invoked command in '/home/golfsko/dev_ws/build/robotklipper' returned '0': CMAKE_PREFIX_PATH=/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/golfsko/dev_ws/build/robotklipper

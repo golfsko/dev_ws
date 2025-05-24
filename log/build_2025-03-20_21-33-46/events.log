@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.007030] (joy_tester) JobQueued: {'identifier': 'joy_tester', 'dependencies': OrderedDict()}
+[0.007087] (robotklipper) JobQueued: {'identifier': 'robotklipper', 'dependencies': OrderedDict()}
+[0.007105] (joy_tester) JobStarted: {'identifier': 'joy_tester'}
+[0.100290] (-) TimerEvent: {}
+[0.152726] (robotklipper) JobStarted: {'identifier': 'robotklipper'}
+[0.203763] (-) TimerEvent: {}
+[0.313460] (-) TimerEvent: {}
+[0.416739] (-) TimerEvent: {}
+[0.519820] (-) TimerEvent: {}
+[0.629915] (-) TimerEvent: {}
+[0.732429] (-) TimerEvent: {}
+[0.834153] (-) TimerEvent: {}
+[0.895709] (robotklipper) JobProgress: {'identifier': 'robotklipper', 'progress': 'cmake'}
+[0.927341] (robotklipper) JobProgress: {'identifier': 'robotklipper', 'progress': 'build'}
+[0.927480] (robotklipper) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/golfsko/dev_ws/build/robotklipper', '--', '-j6', '-l6'], 'cwd': '/home/golfsko/dev_ws/build/robotklipper', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'golfsko'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/golfsko'), ('OLDPWD', '/home/golfsko'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('MANAGERPID', '2349'), ('SYSTEMD_EXEC_PID', '2517'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3978'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/golfsko/dev_ws/install:/home/golfsko/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'golfsko'), ('JOURNAL_STREAM', '8:13613'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'golfsko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2487,unix/robot:/tmp/.ICE-unix/2487'), ('INVOCATION_ID', 'dad20fc9a86849918cde2a6d196cc27d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6SYB32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/golfsko/dev_ws/install/robotklipper:/home/golfsko/dev_ws/install/joy_tester:/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7e2a968a-e104-4c69-aba4-ba4953356a47'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/golfsko/dev_ws/build/robotklipper'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/golfsko/dev_ws/install/joy_tester/lib/python3.10/site-packages:/home/golfsko/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/golfsko/dev_ws/install/robotklipper:/home/golfsko/dev_ws/install/joy_tester:/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.985637] (-) TimerEvent: {}
+[1.092347] (-) TimerEvent: {}
+[1.196936] (-) TimerEvent: {}
+[1.302004] (-) TimerEvent: {}
+[1.378077] (robotklipper) CommandEnded: {'returncode': 0}
+[1.392512] (robotklipper) JobProgress: {'identifier': 'robotklipper', 'progress': 'install'}
+[1.402260] (-) TimerEvent: {}
+[1.417779] (robotklipper) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/golfsko/dev_ws/build/robotklipper'], 'cwd': '/home/golfsko/dev_ws/build/robotklipper', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'golfsko'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/golfsko'), ('OLDPWD', '/home/golfsko'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('MANAGERPID', '2349'), ('SYSTEMD_EXEC_PID', '2517'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3978'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/golfsko/dev_ws/install:/home/golfsko/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'golfsko'), ('JOURNAL_STREAM', '8:13613'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'golfsko'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2487,unix/robot:/tmp/.ICE-unix/2487'), ('INVOCATION_ID', 'dad20fc9a86849918cde2a6d196cc27d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6SYB32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/golfsko/dev_ws/install/robotklipper:/home/golfsko/dev_ws/install/joy_tester:/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:7e2a968a-e104-4c69-aba4-ba4953356a47'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/golfsko/dev_ws/build/robotklipper'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/golfsko/dev_ws/install/joy_tester/lib/python3.10/site-packages:/home/golfsko/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/golfsko/dev_ws/install/robotklipper:/home/golfsko/dev_ws/install/joy_tester:/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[1.445074] (robotklipper) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.459505] (robotklipper) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.463373] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/config/empty.yaml\n'}
+[1.464870] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/config/gazebo_params.yaml\n'}
+[1.465335] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/config/joystick.yaml\n'}
+[1.465428] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/config/my_controllers.yaml\n'}
+[1.466815] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/camera.xacro\n'}
+[1.467123] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/gazebo_control.xacro\n'}
+[1.467377] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/inertial_macros.xacro\n'}
+[1.467626] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/lidar.xacro\n'}
+[1.468080] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/robot.urdf.xacro\n'}
+[1.468624] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/robot_core.xacro\n'}
+[1.468756] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/description/ros2_control.xacro\n'}
+[1.469184] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/joystick.launch.py\n'}
+[1.469436] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/launch_robot.launch.py\n'}
+[1.470266] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/launch_sim.launch.py\n'}
+[1.474821] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/rplidar.launch.py\n'}
+[1.477501] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/launch/rsp.launch.py\n'}
+[1.491495] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/worlds/empty.world\n'}
+[1.505448] (-) TimerEvent: {}
+[1.507404] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/worlds/obstacles.world\n'}
+[1.509403] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/ament_index/resource_index/package_run_dependencies/robotklipper\n'}
+[1.509465] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/ament_index/resource_index/parent_prefix_path/robotklipper\n'}
+[1.509517] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/ament_prefix_path.sh\n'}
+[1.509567] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/ament_prefix_path.dsv\n'}
+[1.509616] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/path.sh\n'}
+[1.510969] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/environment/path.dsv\n'}
+[1.511048] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.bash\n'}
+[1.511118] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.sh\n'}
+[1.513209] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.zsh\n'}
+[1.513369] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/local_setup.dsv\n'}
+[1.513439] (robotklipper) StdoutLine: {'line': b'-- Symlinking: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/package.dsv\n'}
+[1.556916] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/ament_index/resource_index/packages/robotklipper\n'}
+[1.575393] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/cmake/robotklipperConfig.cmake\n'}
+[1.577169] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/cmake/robotklipperConfig-version.cmake\n'}
+[1.581523] (robotklipper) StdoutLine: {'line': b'-- Up-to-date symlink: /home/golfsko/dev_ws/install/robotklipper/share/robotklipper/package.xml\n'}
+[1.587756] (robotklipper) CommandEnded: {'returncode': 0}
+[1.607376] (-) TimerEvent: {}
+[1.715959] (-) TimerEvent: {}
+[1.796366] (robotklipper) JobEnded: {'identifier': 'robotklipper', 'rc': 0}
+[1.817437] (-) TimerEvent: {}
+[1.919975] (-) TimerEvent: {}
+[2.021745] (-) TimerEvent: {}
+[2.125335] (-) TimerEvent: {}
+[2.231943] (-) TimerEvent: {}
+[2.333020] (-) TimerEvent: {}
+[2.436392] (-) TimerEvent: {}
+[2.538667] (-) TimerEvent: {}
+[2.651081] (-) TimerEvent: {}
+[2.753705] (-) TimerEvent: {}
+[2.858380] (-) TimerEvent: {}
+[2.967815] (-) TimerEvent: {}
+[3.074645] (-) TimerEvent: {}
+[3.177082] (-) TimerEvent: {}
+[3.281555] (-) TimerEvent: {}
+[3.385889] (-) TimerEvent: {}
+[3.491914] (-) TimerEvent: {}
+[3.595160] (-) TimerEvent: {}
+[3.704409] (-) TimerEvent: {}
+[3.808731] (-) TimerEvent: {}
+[3.911661] (-) TimerEvent: {}
+[4.023704] (-) TimerEvent: {}
+[4.139439] (-) TimerEvent: {}
+[4.240632] (-) TimerEvent: {}
+[4.346679] (-) TimerEvent: {}
+[4.452017] (-) TimerEvent: {}
+[4.553217] (-) TimerEvent: {}
+[4.659367] (-) TimerEvent: {}
+[4.766909] (-) TimerEvent: {}
+[4.870158] (-) TimerEvent: {}
+[4.977051] (-) TimerEvent: {}
+[5.079903] (-) TimerEvent: {}
+[5.185232] (-) TimerEvent: {}
+[5.289263] (-) TimerEvent: {}
+[5.338086] (joy_tester) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/joy_tester', 'build', '--build-base', '/home/golfsko/dev_ws/build/joy_tester/build', 'install', '--record', '/home/golfsko/dev_ws/build/joy_tester/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/golfsko/dev_ws/src/joy_tester', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'golfsko', 'LC_TIME': 'nb_NO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/golfsko', 'OLDPWD': '/home/golfsko', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'nb_NO.UTF-8', 'MANAGERPID': '2349', 'SYSTEMD_EXEC_PID': '2517', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3978', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/golfsko/dev_ws/install:/home/golfsko/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'golfsko', 'JOURNAL_STREAM': '8:13613', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'golfsko', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robot:@/tmp/.ICE-unix/2487,unix/robot:/tmp/.ICE-unix/2487', 'INVOCATION_ID': 'dad20fc9a86849918cde2a6d196cc27d', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'nb_NO.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'nb_NO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6SYB32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '100', 'AMENT_PREFIX_PATH': '/home/golfsko/dev_ws/install/robotklipper:/home/golfsko/dev_ws/install/joy_tester:/home/golfsko/ros2_ws/install/my_py_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nb_NO.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:7e2a968a-e104-4c69-aba4-ba4953356a47', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nb_NO.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'nb_NO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/golfsko/dev_ws/build/joy_tester', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/golfsko/dev_ws/build/joy_tester/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/golfsko/dev_ws/install/joy_tester/lib/python3.10/site-packages:/home/golfsko/dev_ws/install/joy_tester/lib/python3.10/site-packages:/home/golfsko/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nb_NO.UTF-8', 'LC_PAPER': 'nb_NO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/golfsko/dev_ws/install/robotklipper'}, 'shell': False}
+[5.391820] (-) TimerEvent: {}
+[5.495413] (-) TimerEvent: {}
+[5.601727] (-) TimerEvent: {}
+[5.703574] (-) TimerEvent: {}
+[5.808960] (-) TimerEvent: {}
+[5.914698] (-) TimerEvent: {}
+[5.987288] (joy_tester) StdoutLine: {'line': b'running egg_info\n'}
+[5.987505] (joy_tester) StdoutLine: {'line': b'writing ../../build/joy_tester/joy_tester.egg-info/PKG-INFO\n'}
+[5.993188] (joy_tester) StdoutLine: {'line': b'writing dependency_links to ../../build/joy_tester/joy_tester.egg-info/dependency_links.txt\n'}
+[6.001870] (joy_tester) StdoutLine: {'line': b'writing entry points to ../../build/joy_tester/joy_tester.egg-info/entry_points.txt\n'}
+[6.005427] (joy_tester) StdoutLine: {'line': b'writing requirements to ../../build/joy_tester/joy_tester.egg-info/requires.txt\n'}
+[6.006205] (joy_tester) StdoutLine: {'line': b'writing top-level names to ../../build/joy_tester/joy_tester.egg-info/top_level.txt\n'}
+[6.015133] (-) TimerEvent: {}
+[6.018285] (joy_tester) StdoutLine: {'line': b"reading manifest file '../../build/joy_tester/joy_tester.egg-info/SOURCES.txt'\n"}
+[6.026405] (joy_tester) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.036198] (joy_tester) StdoutLine: {'line': b"writing manifest file '../../build/joy_tester/joy_tester.egg-info/SOURCES.txt'\n"}
+[6.036530] (joy_tester) StdoutLine: {'line': b'running build\n'}
+[6.039340] (joy_tester) StdoutLine: {'line': b'running build_py\n'}
+[6.041156] (joy_tester) StdoutLine: {'line': b'running install\n'}
+[6.044082] (joy_tester) StdoutLine: {'line': b'running install_lib\n'}
+[6.049673] (joy_tester) StdoutLine: {'line': b'running install_data\n'}
+[6.050692] (joy_tester) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.051097] (joy_tester) StdoutLine: {'line': b"removing '/home/golfsko/dev_ws/install/joy_tester/lib/python3.10/site-packages/joy_tester-0.0.2-py3.10.egg-info' (and everything under it)\n"}
+[6.052576] (joy_tester) StdoutLine: {'line': b'Copying ../../build/joy_tester/joy_tester.egg-info to /home/golfsko/dev_ws/install/joy_tester/lib/python3.10/site-packages/joy_tester-0.0.2-py3.10.egg-info\n'}
+[6.067800] (joy_tester) StdoutLine: {'line': b'running install_scripts\n'}
+[6.114798] (joy_tester) StdoutLine: {'line': b'Installing test_joy script to /home/golfsko/dev_ws/install/joy_tester/lib/joy_tester\n'}
+[6.117282] (-) TimerEvent: {}
+[6.122897] (joy_tester) StdoutLine: {'line': b"writing list of installed files to '/home/golfsko/dev_ws/build/joy_tester/install.log'\n"}
+[6.227128] (-) TimerEvent: {}
+[6.234000] (joy_tester) CommandEnded: {'returncode': 0}
+[6.322057] (joy_tester) JobEnded: {'identifier': 'joy_tester', 'rc': 0}
+[6.324531] (-) EventReactorShutdown: {}

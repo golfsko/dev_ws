@@ -1,0 +1,36 @@
+[1.187s] Invoking command in '/home/golfsko/dev_ws/src/my_cutter_bridge': PYTHONPATH=/home/golfsko/dev_ws/build/my_cutter_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_cutter_bridge build --build-base /home/golfsko/dev_ws/build/my_cutter_bridge/build install --record /home/golfsko/dev_ws/build/my_cutter_bridge/install.log --single-version-externally-managed install_data
+[1.457s] running egg_info
+[1.457s] creating ../../build/my_cutter_bridge/my_cutter_bridge.egg-info
+[1.457s] writing ../../build/my_cutter_bridge/my_cutter_bridge.egg-info/PKG-INFO
+[1.457s] writing dependency_links to ../../build/my_cutter_bridge/my_cutter_bridge.egg-info/dependency_links.txt
+[1.459s] writing entry points to ../../build/my_cutter_bridge/my_cutter_bridge.egg-info/entry_points.txt
+[1.459s] writing requirements to ../../build/my_cutter_bridge/my_cutter_bridge.egg-info/requires.txt
+[1.459s] writing top-level names to ../../build/my_cutter_bridge/my_cutter_bridge.egg-info/top_level.txt
+[1.461s] writing manifest file '../../build/my_cutter_bridge/my_cutter_bridge.egg-info/SOURCES.txt'
+[1.464s] reading manifest file '../../build/my_cutter_bridge/my_cutter_bridge.egg-info/SOURCES.txt'
+[1.466s] writing manifest file '../../build/my_cutter_bridge/my_cutter_bridge.egg-info/SOURCES.txt'
+[1.469s] running build
+[1.469s] running build_py
+[1.469s] creating /home/golfsko/dev_ws/build/my_cutter_bridge/build
+[1.469s] creating /home/golfsko/dev_ws/build/my_cutter_bridge/build/lib
+[1.471s] creating /home/golfsko/dev_ws/build/my_cutter_bridge/build/lib/my_cutter_bridge
+[1.471s] copying my_cutter_bridge/__init__.py -> /home/golfsko/dev_ws/build/my_cutter_bridge/build/lib/my_cutter_bridge
+[1.471s] copying my_cutter_bridge/arduino_cutter_bridge.py -> /home/golfsko/dev_ws/build/my_cutter_bridge/build/lib/my_cutter_bridge
+[1.471s] running install
+[1.471s] running install_lib
+[1.471s] creating /home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages/my_cutter_bridge
+[1.473s] copying /home/golfsko/dev_ws/build/my_cutter_bridge/build/lib/my_cutter_bridge/__init__.py -> /home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages/my_cutter_bridge
+[1.473s] copying /home/golfsko/dev_ws/build/my_cutter_bridge/build/lib/my_cutter_bridge/arduino_cutter_bridge.py -> /home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages/my_cutter_bridge
+[1.474s] byte-compiling /home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages/my_cutter_bridge/__init__.py to __init__.cpython-310.pyc
+[1.474s] byte-compiling /home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages/my_cutter_bridge/arduino_cutter_bridge.py to arduino_cutter_bridge.cpython-310.pyc
+[1.475s] running install_data
+[1.475s] creating /home/golfsko/dev_ws/install/my_cutter_bridge/share/ament_index
+[1.475s] creating /home/golfsko/dev_ws/install/my_cutter_bridge/share/ament_index/resource_index
+[1.475s] creating /home/golfsko/dev_ws/install/my_cutter_bridge/share/ament_index/resource_index/packages
+[1.475s] copying resource/my_cutter_bridge -> /home/golfsko/dev_ws/install/my_cutter_bridge/share/ament_index/resource_index/packages
+[1.475s] copying package.xml -> /home/golfsko/dev_ws/install/my_cutter_bridge/share/my_cutter_bridge
+[1.476s] running install_egg_info
+[1.482s] Copying ../../build/my_cutter_bridge/my_cutter_bridge.egg-info to /home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages/my_cutter_bridge-0.0.0-py3.10.egg-info
+[1.486s] running install_scripts
+[1.522s] writing list of installed files to '/home/golfsko/dev_ws/build/my_cutter_bridge/install.log'
+[1.565s] Invoked command in '/home/golfsko/dev_ws/src/my_cutter_bridge' returned '0': PYTHONPATH=/home/golfsko/dev_ws/build/my_cutter_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/golfsko/dev_ws/install/my_cutter_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_cutter_bridge build --build-base /home/golfsko/dev_ws/build/my_cutter_bridge/build install --record /home/golfsko/dev_ws/build/my_cutter_bridge/install.log --single-version-externally-managed install_data
