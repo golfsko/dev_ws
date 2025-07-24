@@ -16,7 +16,7 @@ class JoyToCutter(Node):
         button_state = msg.buttons[self.button_index]
         if button_state == 1 and self.prev_button_state == 0:
             self.cutter_on = not self.cutter_on
-            speed = 160 if self.cutter_on else 0
+            speed = 16 if self.cutter_on else 0
             self.publisher.publish(Int32(data=speed))
             self.get_logger().info(f'Cutter {"ON" if self.cutter_on else "OFF"}')
 

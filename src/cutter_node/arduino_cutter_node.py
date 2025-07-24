@@ -17,7 +17,7 @@ class CutterBridge(Node):
             10)
 
     def listener_callback(self, msg):
-        speed = max(0, min(100, msg.data))  # Clamp speed 0-100
+        speed = max(0, min(20, msg.data))  # Clamp speed 0-100
         command = f'f {speed}\n'
         self.get_logger().info(f'Sending to Arduino: {command.strip()}')
         self.serial_port.write(command.encode())
